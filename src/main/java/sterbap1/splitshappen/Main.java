@@ -7,9 +7,10 @@ public class Main {
 
     public static void main(String[] args) {
         Main main = new Main();
-        String input = args[0];
-        int score = main.calculateScoreForGame(input);
-        System.out.println("Game '" + input + "' scored a " + score);
+        for (String input : args) {
+            int score = main.calculateScoreForGame(input);
+            System.out.println("Game '" + input + "' scored a " + score);
+        }
     }
 
     private static final String STRIKE = "X";
