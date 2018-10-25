@@ -9,4 +9,4 @@ fi
 
 mv ./target/splitshappen-jar-with-dependencies.jar ./target/splitshappen.jar
 
-echo "to run, use 'java -jar ./target/splitshappen.jar <input>'"
+echo "to run: 'java -jar ./target/splitshappen.jar <input> [<input>]'"
